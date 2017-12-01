@@ -127,7 +127,7 @@ public class AutoTraderTest {
             }
         } while(1>0);
 
-        autoTraderQuickSearchTest.log(Status.INFO, "Clicking search button.");
+        autoTraderQuickSearchTest.log(Status.INFO, "Searching");
         homepage.quickSearch();
 
         String expectedUrlToContain = "https://www.autotrader.co.uk/car-search";
